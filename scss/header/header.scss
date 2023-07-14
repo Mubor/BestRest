@@ -1,0 +1,38 @@
+@import "../variables/default.scss";
+
+.header {
+    padding-top: 18.9vh;
+
+    &__logo {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    &__message{
+        text-align: center;
+        font-family: 'Rubik';
+        font-weight: normal;
+        font-size: 24px;
+        color: white;
+
+        &>span{
+            color: $accentColor;
+        }
+    }
+}
+
+@media screen and(max-width:640px) {
+    .header {
+        padding-top: 100px;
+    
+        &__logo {
+           display: none;
+        }
+    
+        &__message{
+            padding: 0 16px;
+            font-size: 19px;
+            line-height: normal;
+        }
+    }
+}

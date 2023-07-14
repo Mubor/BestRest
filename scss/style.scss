@@ -1,0 +1,81 @@
+@import 'main/reset.scss';
+@import 'variables/default.scss';
+
+
+@font-face {
+    font-family: 'Rubik';
+    src: url(../fonts/Rubik-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Rubik';
+    src: url(../fonts/Rubik-Medium.ttf);
+    font-weight: normal;
+}
+
+@import 'header/header.scss';
+@import 'main/form.scss';
+@import 'footer/footer.scss';
+
+
+
+body{
+    background: url('../media/bg-cover.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.picture {
+    display: none;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 300;
+    border-bottom: 1px solid $accentColor;
+    transition: all .3s;
+    
+    &, &:active, &:visited {
+        color: $accentColor;
+    }
+    
+    &:hover {
+        border-bottom: 1px solid white;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body{
+        background-image: url('../media/bg-cover-mobile.jpg');
+        background-attachment: fixed;
+    }
+
+    .wrapper {
+        position: relative;
+    }
+
+    .picture {
+        position: absolute;
+        display: block;
+        width: 23%;
+
+        &>img {
+            display: block;
+            width: 100%;
+        }
+
+        &:first-child {
+            right: 0;
+            top: .5%;
+        }
+        &:nth-child(2) {
+            width: 12%;
+            left: 0;
+            top: 11%;
+        }
+        &:nth-child(3) {
+            right: 0;
+            bottom: 0;
+        }
+    }
+}

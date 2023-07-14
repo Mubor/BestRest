@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+    <div class="wrapper">
+    <header class="header">
+        <div class="header__logo">
+            <img src="assets/media/logo.svg" alt="Logo">
+        </div>
+        <h1 class="header__message">
+            <span>Sign Up</span> and find the best place to rest while traveling
+        </h1>
+    </header>
+    <section class="main">
+        <div class="picture"><img src="assets/media/bg-mobile-1.svg" alt="Background picture"></div>
+        <div class="picture"><img src="assets/media/bg-mobile-2.svg" alt="Background picture"></div>
+        <div class="picture"><img src="assets/media/bg-mobile-3.svg" alt="Background picture"></div>
+
+        <form class="signup" name="signup">
+            <div class="signup__group">
+                <input type="text" name="firstName" id="firstName" class="signup__item" placeholder="First Name" required>
+                <label class="signup__placeholder" for="firstName">First Name</label>
+                <div class="signup__icon">
+                    <img src="assets/media/first-name.svg" alt="First name icon">
+                </div>
+            </div>
+            <div class="signup__group">
+                <input type="text" name="secondName" id="secondName" class="signup__item" placeholder="Second Name" required>
+                <label class="signup__placeholder" for="secondName">Second Name</label>
+                <div class="signup__icon">
+                    <img src="assets/media/second-name.svg" alt="Second name icon">
+                </div>
+            </div>
+            <div class="signup__group signup__group--select">
+                <div class="select">
+                    <div class="select__input signup__item signup__item--select">
+                        <span class="select__value">empty</span>
+                        <div class="select__placeholder signup__placeholder" for="country">Country</div>
+                        <div class="select__icon signup__icon">
+                            <img src="assets/media/country.svg" alt="Country icon">
+                        </div>
+                    </div>
+                    <div class="select__body">
+                        <div class="select__wrapper">
+                            <div class="select__option" data-value="AF">Afghanistan</div>
+                            <div class="select__option" data-value="AL">Albania</div>
+                            <div class="select__option" data-value="DZ">Algeria</div>
+                            <div class="select__option" data-value="AS">American Samoa</div>
+                            <div class="select__option" data-value="AD">Andorra</div>
+                            <div class="select__option" data-value="AO">Angola</div>
+                            <div class="select__option" data-value="AI">Anguilla</div>
+                            <div class="select__option" data-value="AG">Antigua and Barbuda</div>
+                            <div class="select__option" data-value="AR">Argentina</div>
+                            <div class="select__option" data-value="AM">Armenia</div>
+                            <div class="select__option" data-value="AW">Aruba</div>
+                            <div class="select__option" data-value="AU">Australia</div>
+                            <div class="select__option" data-value="AT">Austria</div>
+                            <div class="select__option" data-value="AZ">Azerbaijan</div>
+                            <div class="select__option" data-value="BS">Bahamas</div>
+                            <div class="select__option" data-value="BH">Bahrain</div>
+                            <div class="select__option" data-value="BD">Bangladesh</div>
+                            <div class="select__option" data-value="BB">Barbados</div>
+                            <div class="select__option" data-value="BY">Belarus</div>
+                            <div class="select__option" data-value="BE">Belgium</div>
+                            <div class="select__option" data-value="BZ">Belize</div>
+                            <div class="select__option" data-value="BJ">Benin</div>
+                            <div class="select__option" data-value="BM">Bermuda</div>
+                            <div class="select__option" data-value="BT">Bhutan</div>
+                            <div class="select__option" data-value="BO">Bolivia</div>
+                            <div class="select__option" data-value="BA">Bosnia and Herzegovina</div>
+                            <div class="select__option" data-value="BW">Botswana</div>
+                            <div class="select__option" data-value="BR">Brazil</div>
+                            <div class="select__option" data-value="BN">Brunei Darussalam</div>
+                            <div class="select__option" data-value="BG">Bulgaria</div>
+                            <div class="select__option" data-value="BF">Burkina Faso</div>
+                            <div class="select__option" data-value="BI">Burundi</div>
+                            <div class="select__option" data-value="KH">Cambodia</div>
+                            <div class="select__option" data-value="CM">Cameroon</div>
+                            <div class="select__option" data-value="CA">Canada</div>
+                            <div class="select__option" data-value="CV">Cape Verde</div>
+                            <div class="select__option" data-value="KY">Cayman Islands</div>
+                            <div class="select__option" data-value="CF">Central African Republic</div>
+                            <div class="select__option" data-value="TD">Chad</div>
+                            <div class="select__option" data-value="CL">Chile</div>
+                            <div class="select__option" data-value="CN">China</div>
+                            <div class="select__option" data-value="CX">Christmas Island</div>
+                            <div class="select__option" data-value="CC">Cocos (Keeling) Islands</div>
+                            <div class="select__option" data-value="CO">Colombia</div>
+                            <div class="select__option" data-value="KM">Comoros</div>
+                            <div class="select__option" data-value="CG">Congo</div>
+                            <div class="select__option" data-value="CK">Cook Islands</div>
+                            <div class="select__option" data-value="CR">Costa Rica</div>
+                            <div class="select__option" data-value="CI">Cote D'Ivoire</div>
+                            <div class="select__option" data-value="HR">Croatia</div>
+                            <div class="select__option" data-value="CU">Cuba</div>
+                            <div class="select__option" data-value="CW">Curacao</div>
+                            <div class="select__option" data-value="CY">Cyprus</div>
+                            <div class="select__option" data-value="CZ">Czech Republic</div>
+                            <div class="select__option" data-value="DK">Denmark</div>
+                            <div class="select__option" data-value="DJ">Djibouti</div>
+                            <div class="select__option" data-value="DM">Dominica</div>
+                            <div class="select__option" data-value="DO">Dominican Republic</div>
+                            <div class="select__option" data-value="EC">Ecuador</div>
+                            <div class="select__option" data-value="EG">Egypt</div>
+                            <div class="select__option" data-value="SV">El Salvador</div>
+                            <div class="select__option" data-value="GQ">Equatorial Guinea</div>
+                            <div class="select__option" data-value="ER">Eritrea</div>
+                            <div class="select__option" data-value="EE">Estonia</div>
+                            <div class="select__option" data-value="ET">Ethiopia</div>
+                            <div class="select__option" data-value="FK">Falkland Islands</div>
+                            <div class="select__option" data-value="FO">Faroe Islands</div>
+                            <div class="select__option" data-value="FJ">Fiji</div>
+                            <div class="select__option" data-value="FI">Finland</div>
+                            <div class="select__option" data-value="FR">France</div>
+                            <div class="select__option" data-value="GF">French Guiana</div>
+                            <div class="select__option" data-value="PF">French Polynesia</div>
+                            <div class="select__option" data-value="GA">Gabon</div>
+                            <div class="select__option" data-value="GM">Gambia</div>
+                            <div class="select__option" data-value="GE">Georgia</div>
+                            <div class="select__option" data-value="DE">Germany</div>
+                            <div class="select__option" data-value="GH">Ghana</div>
+                            <div class="select__option" data-value="GI">Gibraltar</div>
+                            <div class="select__option" data-value="GR">Greece</div>
+                            <div class="select__option" data-value="GL">Greenland</div>
+                            <div class="select__option" data-value="GD">Grenada</div>
+                            <div class="select__option" data-value="GP">Guadeloupe</div>
+                            <div class="select__option" data-value="GU">Guam</div>
+                            <div class="select__option" data-value="GT">Guatemala</div>
+                            <div class="select__option" data-value="GN">Guinea</div>
+                            <div class="select__option" data-value="GW">Guinea-Bissau</div>
+                            <div class="select__option" data-value="GY">Guyana</div>
+                            <div class="select__option" data-value="HT">Haiti</div>
+                            <div class="select__option" data-value="VA">Holy See</div>
+                            <div class="select__option" data-value="HN">Honduras</div>
+                            <div class="select__option" data-value="HK">Hong Kong</div>
+                            <div class="select__option" data-value="HU">Hungary</div>
+                            <div class="select__option" data-value="IS">Iceland</div>
+                            <div class="select__option" data-value="IN">India</div>
+                            <div class="select__option" data-value="ID">Indonesia</div>
+                            <div class="select__option" data-value="IR">Iran</div>
+                            <div class="select__option" data-value="IQ">Iraq</div>
+                            <div class="select__option" data-value="IE">Ireland</div>
+                            <div class="select__option" data-value="IL">Israel</div>
+                            <div class="select__option" data-value="IT">Italy</div>
+                            <div class="select__option" data-value="JM">Jamaica</div>
+                            <div class="select__option" data-value="JP">Japan</div>
+                            <div class="select__option" data-value="JO">Jordan</div>
+                            <div class="select__option" data-value="KZ">Kazakhstan</div>
+                            <div class="select__option" data-value="KE">Kenya</div>
+                            <div class="select__option" data-value="KI">Kiribati</div>
+                            <div class="select__option" data-value="KP">North Korea</div>
+                            <div class="select__option" data-value="KR">South Korea</div>
+                            <div class="select__option" data-value="KW">Kuwait</div>
+                            <div class="select__option" data-value="KG">Kyrgyzstan</div>
+                            <div class="select__option" data-value="LV">Latvia</div>
+                            <div class="select__option" data-value="LB">Lebanon</div>
+                            <div class="select__option" data-value="LS">Lesotho</div>
+                            <div class="select__option" data-value="LR">Liberia</div>
+                            <div class="select__option" data-value="LY">Libyan Arab Jamahiriya</div>
+                            <div class="select__option" data-value="LI">Liechtenstein</div>
+                            <div class="select__option" data-value="LT">Lithuania</div>
+                            <div class="select__option" data-value="LU">Luxembourg</div>
+                            <div class="select__option" data-value="MO">Macao</div>
+                            <div class="select__option" data-value="MK">Macedonia</div>
+                            <div class="select__option" data-value="MG">Madagascar</div>
+                            <div class="select__option" data-value="MW">Malawi</div>
+                            <div class="select__option" data-value="MY">Malaysia</div>
+                            <div class="select__option" data-value="MV">Maldives</div>
+                            <div class="select__option" data-value="ML">Mali</div>
+                            <div class="select__option" data-value="MT">Malta</div>
+                            <div class="select__option" data-value="MH">Marshall Islands</div>
+                            <div class="select__option" data-value="MQ">Martinique</div>
+                            <div class="select__option" data-value="MR">Mauritania</div>
+                            <div class="select__option" data-value="MU">Mauritius</div>
+                            <div class="select__option" data-value="YT">Mayotte</div>
+                            <div class="select__option" data-value="MX">Mexico</div>
+                            <div class="select__option" data-value="FM">Micronesia</div>
+                            <div class="select__option" data-value="MD">Moldova</div>
+                            <div class="select__option" data-value="MC">Monaco</div>
+                            <div class="select__option" data-value="MN">Mongolia</div>
+                            <div class="select__option" data-value="ME">Montenegro</div>
+                            <div class="select__option" data-value="MS">Montserrat</div>
+                            <div class="select__option" data-value="MA">Morocco</div>
+                            <div class="select__option" data-value="MM">Myanmar</div>
+                            <div class="select__option" data-value="NA">Namibia</div>
+                            <div class="select__option" data-value="NR">Nauru</div>
+                            <div class="select__option" data-value="NP">Nepal</div>
+                            <div class="select__option" data-value="NL">Netherlands</div>
+                            <div class="select__option" data-value="AN">Netherlands Antilles</div>
+                            <div class="select__option" data-value="NC">New Caledonia</div>
+                            <div class="select__option" data-value="NZ">New Zealand</div>
+                            <div class="select__option" data-value="NI">Nicaragua</div>
+                            <div class="select__option" data-value="NE">Niger</div>
+                            <div class="select__option" data-value="NG">Nigeria</div>
+                            <div class="select__option" data-value="NU">Niue</div>
+                            <div class="select__option" data-value="NF">Norfolk Island</div>
+                            <div class="select__option" data-value="MP">Northern Mariana Islands</div>
+                            <div class="select__option" data-value="NO">Norway</div>
+                            <div class="select__option" data-value="OM">Oman</div>
+                            <div class="select__option" data-value="PK">Pakistan</div>
+                            <div class="select__option" data-value="PW">Palau</div>
+                            <div class="select__option" data-value="PS">Palestinian Territory</div>
+                            <div class="select__option" data-value="PA">Panama</div>
+                            <div class="select__option" data-value="PG">Papua New Guinea</div>
+                            <div class="select__option" data-value="PY">Paraguay</div>
+                            <div class="select__option" data-value="PE">Peru</div>
+                            <div class="select__option" data-value="PH">Philippines</div>
+                            <div class="select__option" data-value="PL">Poland</div>
+                            <div class="select__option" data-value="PT">Portugal</div>
+                            <div class="select__option" data-value="PR">Puerto Rico</div>
+                            <div class="select__option" data-value="QA">Qatar</div>
+                            <div class="select__option" data-value="RE">Reunion</div>
+                            <div class="select__option" data-value="RO">Romania</div>
+                            <div class="select__option" data-value="RU">Russian Federation</div>
+                            <div class="select__option" data-value="RW">Rwanda</div>
+                            <div class="select__option" data-value="KN">Saint Kitts and Nevis</div>
+                            <div class="select__option" data-value="WS">Samoa</div>
+                            <div class="select__option" data-value="SM">San Marino</div>
+                            <div class="select__option" data-value="SA">Saudi Arabia</div>
+                            <div class="select__option" data-value="SN">Senegal</div>
+                            <div class="select__option" data-value="RS">Serbia</div>
+                            <div class="select__option" data-value="SC">Seychelles</div>
+                            <div class="select__option" data-value="SL">Sierra Leone</div>
+                            <div class="select__option" data-value="SG">Singapore</div>
+                            <div class="select__option" data-value="SK">Slovakia</div>
+                            <div class="select__option" data-value="SI">Slovenia</div>
+                            <div class="select__option" data-value="SB">Solomon Islands</div>
+                            <div class="select__option" data-value="ZA">South Africa</div>
+                            <div class="select__option" data-value="GS">South Georgia</div>
+                            <div class="select__option" data-value="ES">Spain</div>
+                            <div class="select__option" data-value="LK">Sri Lanka</div>
+                            <div class="select__option" data-value="SD">Sudan</div>
+                            <div class="select__option" data-value="SR">Suriname</div>
+                            <div class="select__option" data-value="SZ">Swaziland</div>
+                            <div class="select__option" data-value="SE">Sweden</div>
+                            <div class="select__option" data-value="CH">Switzerland</div>
+                            <div class="select__option" data-value="SY">Syria</div>
+                            <div class="select__option" data-value="TW">Taiwan</div>
+                            <div class="select__option" data-value="TJ">Tajikistan</div>
+                            <div class="select__option" data-value="TZ">Tanzania</div>
+                            <div class="select__option" data-value="TH">Thailand</div>
+                            <div class="select__option" data-value="TL">Timor-Leste</div>
+                            <div class="select__option" data-value="TG">Togo</div>
+                            <div class="select__option" data-value="TK">Tokelau</div>
+                            <div class="select__option" data-value="TO">Tonga</div>
+                            <div class="select__option" data-value="TT">Trinidad and Tobago</div>
+                            <div class="select__option" data-value="TN">Tunisia</div>
+                            <div class="select__option" data-value="TR">Turkey</div>
+                            <div class="select__option" data-value="TM">Turkmenistan</div>
+                            <div class="select__option" data-value="TC">Turks and Caicos Islands</div>
+                            <div class="select__option" data-value="TV">Tuvalu</div>
+                            <div class="select__option" data-value="UG">Uganda</div>
+                            <div class="select__option" data-value="UA">Ukraine</div>
+                            <div class="select__option" data-value="AE">United Arab Emirates</div>
+                            <div class="select__option" data-value="GB">United Kingdom</div>
+                            <div class="select__option" data-value="US">United States</div>
+                            <div class="select__option" data-value="UY">Uruguay</div>
+                            <div class="select__option" data-value="UZ">Uzbekistan</div>
+                            <div class="select__option" data-value="VU">Vanuatu</div>
+                            <div class="select__option" data-value="VE">Venezuela</div>
+                            <div class="select__option" data-value="VN">Viet Nam</div>
+                            <div class="select__option" data-value="VG">Virgin Islands, British</div>
+                            <div class="select__option" data-value="VI">Virgin Islands, U.s.</div>
+                            <div class="select__option" data-value="WF">Wallis and Futuna</div>
+                            <div class="select__option" data-value="YE">Yemen</div>
+                            <div class="select__option" data-value="ZM">Zambia</div>
+                            <div class="select__option" data-value="ZW">Zimbabwe</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="signup__group">
+                <input type="tel" name="phone" id="phone" class="signup__item" placeholder="Phone" required>
+                <label class="signup__placeholder" for="phone">Phone</label>
+                <div class="signup__icon">
+                    <img src="assets/media/phone.svg" alt="Phone icon">
+                </div>
+            </div>
+            <div class="signup__group">
+                <input type="password" name="password" id="password" class="signup__item" placeholder="Password" required>
+                <label class="signup__placeholder" for="password">Password</label>
+                <div class="signup__icon">
+                    <img src="assets/media/password.svg" alt="Password icon">
+                </div>
+            </div>
+            <div class="signup__group">
+                <input type="password" name="confirm" id="confirm" class="signup__item" placeholder="Confirm password" required>
+                <label class="signup__placeholder" for="confirm">Confirm password</label>
+                <div class="signup__icon">
+                    <img src="assets/media/confirm.svg" alt="Password confirmation icon">
+                </div>
+            </div>
+            <div class="signup__group">
+                <input type="email" name="email" id="email" class="signup__item" placeholder="Email" required>
+                <label class="signup__placeholder" for="email">Email</label>
+                <div class="signup__icon">
+                    <img src="assets/media/email.svg" alt="Email icon">
+                </div>
+            </div>
+            <div class="signup__group signup__group--check">
+                <input type="checkbox" name="agreement" id="agreement" class="signup__item--check">
+                <label for="agreement">
+                    I agree to the <a href="#" class="link">Terms & Conditions</a>
+                </label>
+            </div>
+            <input type="submit" name="button" id="button" value="Sign Up" class="signup__button">
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer__body">If you have an account, <a href="#" class="link">Log In</a></div>
+    </footer>
+    <script src="dist/main.js"></script>
+</div>
+</body>
+</html>
